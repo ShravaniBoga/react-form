@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import AddUser from './components/Users/AddUser'
+import UsersList from './components/Users/UsersList';
 
 import './App.css'
 
@@ -9,6 +10,7 @@ function App() {
   return (
     <>
       <AddUser />
+      <UsersList users={[]} />
 
 
 
